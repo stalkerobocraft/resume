@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страничка</title>
+    <link rel="stylesheet" href="01_selectors.css">
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="info">
+ 
+    <div>
+    <img src="imgs/моя фотка.jpg" alt="Здесь был я" class="avatar">
+    </div>
+
+        <div class="info-text card">
+
+        <h1>Данилов Евгений</h1>
+
+        <p>Я обучаюсь <strong>программированию</strong> для того что бы выйти на заработок от <em>70тыщ/мес.</em></p>
+
+        <p>Я нахажу общий язык с начальство и легко вливаюсь в коллектив</p>
+        
+        <p>Моё самое большое увлечение это <a href="https://ru.wikipedia.org/wiki/Волейбол" target="_blank">Волейбол</a>.</p>
+
+        <h3>Список моих сои соц сетей:</h3>
+
+        <a href="https://vk.com/tava.nekros" target="_blank">VK</a>
+        |
+        <a href="https://web.telegram.org/k/   "target="_blank" >Telegram</a>
+
+        </div>
+
+    </div>
+
+    <div class="card bg-red list">
+
+        <h3>Раньше обучался во множестве заведний:</h3>
+
+        <ol>
+            <li>МБОУ СОШ №29</li>
+            <li>КГАНОУ "КЦО"</li>
+            <li>Лицей "Вектор"</li>
+            <li>ДВГУПС</li>
+        </ol>
+    </div>
+
+    <div class="card bg-yellow">
+
+    <h3>Команды в которых я играл:</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Позиция	</th>
+                <th>Год</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Старт</td>
+                <td>Центральный блокирующий</td>
+                <td>2018-2020</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Медоеды</td>
+                <td>Центральный блокирующий</td>
+                <td>2020-2021</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Медведи</td>
+                <td>Доигровщик</td>
+                <td>2020-2024</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+ 
+
+    <form action="" class="card mail form">
+
+     <h3>Связаться со мной</h3>
+
+     <div class="form-row">
+
+        <div class="form-group">
+            <label for="text">Ваше имя:</label>
+            <input type="text" id="text" placeholder="Введите имя">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+    
+    </div>
+
+        <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea name="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+
+        <input type="submit" class="btn" value="Отправить!">
+
+    </form>
+
+</div>
+
+</body>
+</html>
